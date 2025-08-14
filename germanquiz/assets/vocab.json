@@ -1,0 +1,1143 @@
+[
+  {"english": "car", "german": "Auto", "choices": ["Auto", "Zug", "Fahrrad", "Bus"], "category": "transport"},
+  {"english": "bus", "german": "Bus", "choices": ["Taxi", "Bus", "Schiff", "Roller"], "category": "transport"},
+  {"english": "train", "german": "Zug", "choices": ["Flugzeug", "Zug", "Bus", "Auto"], "category": "transport"},
+  {"english": "bicycle", "german": "Fahrrad", "choices": ["Roller", "Fahrrad", "Auto", "Taxi"], "category": "transport"},
+  {"english": "airplane", "german": "Flugzeug", "choices": ["Zug", "Auto", "Flugzeug", "Fahrrad"], "category": "transport"},
+  {"english": "taxi", "german": "Taxi", "choices": ["Bus", "Taxi", "Auto", "Zug"], "category": "transport"},
+  {"english": "motorcycle", "german": "Motorrad", "choices": ["Motorrad", "Fahrrad", "Auto", "Bus"], "category": "transport"},
+  {"english": "ship", "german": "Schiff", "choices": ["Schiff", "Flugzeug", "Taxi", "Auto"], "category": "transport"},
+  {"english": "scooter", "german": "Roller", "choices": ["Roller", "Fahrrad", "Bus", "Zug"], "category": "transport"},
+  {"english": "subway", "german": "U-Bahn", "choices": ["Auto", "U-Bahn", "Zug", "Taxi"], "category": "transport"},
+  {"english": "truck", "german": "Lastwagen", "choices": ["Bus", "Lastwagen", "Auto", "Fahrrad"], "category": "transport"},
+  {"english": "station", "german": "Bahnhof", "choices": ["Bahnhof", "Flughafen", "Garage", "Haus"], "category": "transport"},
+  {"english": "garage", "german": "Garage", "choices": ["Garage", "Straße", "Zug", "Auto"], "category": "transport"},
+  {"english": "road", "german": "Straße", "choices": ["Straße", "Auto", "Bahn", "Taxi"], "category": "transport"},
+  {"english": "traffic light", "german": "Ampel", "choices": ["Ampel", "Straße", "Taxi", "Zug"], "category": "transport"},
+  {"english": "pedestrian", "german": "Fußgänger", "choices": ["Fußgänger", "Auto", "Fahrrad", "Bus"], "category": "transport"},
+  {"english": "helmet", "german": "Helm", "choices": ["Helm", "Auto", "Bus", "Taxi"], "category": "transport"},
+  {"english": "bridge", "german": "Brücke", "choices": ["Brücke", "Straße", "Tunnel", "Zug"], "category": "transport"},
+  {"english": "tunnel", "german": "Tunnel", "choices": ["Tunnel", "Brücke", "Straße", "Bus"], "category": "transport"},
+  {"english": "seatbelt", "german": "Sicherheitsgurt", "choices": ["Sicherheitsgurt", "Lenkrad", "Helm", "Bremse"], "category": "transport"},
+
+  {"english": "apple", "german": "Apfel", "choices": ["Apfel", "Banane", "Milch", "Brot"], "category": "grocery"},
+  {"english": "banana", "german": "Banane", "choices": ["Milch", "Banane", "Fisch", "Apfel"], "category": "grocery"},
+  {"english": "bread", "german": "Brot", "choices": ["Käse", "Brot", "Reis", "Fleisch"], "category": "grocery"},
+  {"english": "cheese", "german": "Käse", "choices": ["Wurst", "Käse", "Eier", "Reis"], "category": "grocery"},
+  {"english": "milk", "german": "Milch", "choices": ["Milch", "Apfel", "Butter", "Fisch"], "category": "grocery"},
+  {"english": "eggs", "german": "Eier", "choices": ["Eier", "Milch", "Käse", "Brot"], "category": "grocery"},
+  {"english": "butter", "german": "Butter", "choices": ["Reis", "Butter", "Käse", "Wurst"], "category": "grocery"},
+  {"english": "rice", "german": "Reis", "choices": ["Brot", "Reis", "Käse", "Butter"], "category": "grocery"},
+  {"english": "meat", "german": "Fleisch", "choices": ["Fisch", "Fleisch", "Wurst", "Reis"], "category": "grocery"},
+  {"english": "fish", "german": "Fisch", "choices": ["Fisch", "Milch", "Apfel", "Brot"], "category": "grocery"},
+  {"english": "sausage", "german": "Wurst", "choices": ["Wurst", "Fleisch", "Käse", "Butter"], "category": "grocery"},
+  {"english": "salt", "german": "Salz", "choices": ["Pfeffer", "Salz", "Reis", "Käse"], "category": "grocery"},
+  {"english": "pepper", "german": "Pfeffer", "choices": ["Salz", "Pfeffer", "Fisch", "Eier"], "category": "grocery"},
+  {"english": "sugar", "german": "Zucker", "choices": ["Zucker", "Salz", "Milch", "Reis"], "category": "grocery"},
+  {"english": "water", "german": "Wasser", "choices": ["Wasser", "Milch", "Apfel", "Brot"], "category": "grocery"},
+  {"english": "juice", "german": "Saft", "choices": ["Saft", "Wasser", "Zucker", "Milch"], "category": "grocery"},
+  {"english": "flour", "german": "Mehl", "choices": ["Mehl", "Reis", "Butter", "Käse"], "category": "grocery"},
+  {"english": "oil", "german": "Öl", "choices": ["Butter", "Öl", "Fleisch", "Käse"], "category": "grocery"},
+  {"english": "vinegar", "german": "Essig", "choices": ["Essig", "Öl", "Saft", "Mehl"], "category": "grocery"},
+  {"english": "yogurt", "german": "Joghurt", "choices": ["Milch", "Joghurt", "Eier", "Wurst"], "category": "grocery"},
+{
+	"english": "spoon",
+	"german": "Löffel",
+	"choices": [
+	  "Heft",
+	  "Löffel",
+	  "Tochter",
+	  "Orange"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "fork",
+	"german": "Gabel",
+	"choices": [
+	  "Heft",
+	  "Lehrer",
+	  "Gabel",
+	  "Vater"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "knife",
+	"german": "Messer",
+	"choices": [
+	  "Kartoffel",
+	  "Tomate",
+	  "Reis",
+	  "Messer"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "plate",
+	"german": "Teller",
+	"choices": [
+	  "Stift",
+	  "Passagier",
+	  "Teller",
+	  "Sohn"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "cup",
+	"german": "Tasse",
+	"choices": [
+	  "Tasse",
+	  "Stift",
+	  "Zug",
+	  "Cousin"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "glass",
+	"german": "Glas",
+	"choices": [
+	  "Straße",
+	  "Glas",
+	  "Bahnhof",
+	  "Schüssel"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "pan",
+	"german": "Pfanne",
+	"choices": [
+	  "Kleber",
+	  "Pfanne",
+	  "Ehemann",
+	  "Baby"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "pot",
+	"german": "Topf",
+	"choices": [
+	  "Prüfung",
+	  "Straßenbahn",
+	  "Topf",
+	  "Familie"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "stove",
+	"german": "Herd",
+	"choices": [
+	  "Herd",
+	  "Taxi",
+	  "Butter",
+	  "Spüle"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "oven",
+	"german": "Ofen",
+	"choices": [
+	  "Tante",
+	  "Ofen",
+	  "Taxi",
+	  "Hubschrauber"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "fridge",
+	"german": "Kühlschrank",
+	"choices": [
+	  "Kühlschrank",
+	  "Kind",
+	  "Tomate",
+	  "Pfanne"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "microwave",
+	"german": "Mikrowelle",
+	"choices": [
+	  "Motorrad",
+	  "Mikrowelle",
+	  "Papier",
+	  "Taxi"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "sink",
+	"german": "Spüle",
+	"choices": [
+	  "Hausaufgabe",
+	  "Spüle",
+	  "Salz",
+	  "Orange"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "kettle",
+	"german": "Wasserkocher",
+	"choices": [
+	  "Großvater",
+	  "Traube",
+	  "Prüfung",
+	  "Wasserkocher"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "napkin",
+	"german": "Serviette",
+	"choices": [
+	  "Pfanne",
+	  "Traube",
+	  "Serviette",
+	  "Schüler"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "bowl",
+	"german": "Schüssel",
+	"choices": [
+	  "Straßenbahn",
+	  "Pfanne",
+	  "Schüssel",
+	  "Passagier"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "spatula",
+	"german": "Spachtel",
+	"choices": [
+	  "Spachtel",
+	  "Neffe",
+	  "Kind",
+	  "Schüssel"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "blender",
+	"german": "Mixer",
+	"choices": [
+	  "Neffe",
+	  "Mixer",
+	  "Milch",
+	  "Glas"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "toaster",
+	"german": "Toaster",
+	"choices": [
+	  "Motorrad",
+	  "Eltern",
+	  "Verwandte",
+	  "Toaster"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "dishwasher",
+	"german": "Geschirrspüler",
+	"choices": [
+	  "Mixer",
+	  "Familie",
+	  "Zucker",
+	  "Geschirrspüler"
+	],
+	"category": "kitchen"
+  },
+  {
+	"english": "book",
+	"german": "Buch",
+	"choices": [
+	  "Fisch",
+	  "Buch",
+	  "Wasserkocher",
+	  "Brot"
+	],
+	"category": "school"
+  },
+  {
+	"english": "pen",
+	"german": "Stift",
+	"choices": [
+	  "Mixer",
+	  "Familie",
+	  "Vater",
+	  "Stift"
+	],
+	"category": "school"
+  },
+  {
+	"english": "pencil",
+	"german": "Bleistift",
+	"choices": [
+	  "Bleistift",
+	  "Tante",
+	  "Helm",
+	  "Fahrkarte"
+	],
+	"category": "school"
+  },
+  {
+	"english": "eraser",
+	"german": "Radiergummi",
+	"choices": [
+	  "Straße",
+	  "Butter",
+	  "Hubschrauber",
+	  "Radiergummi"
+	],
+	"category": "school"
+  },
+  {
+	"english": "ruler",
+	"german": "Lineal",
+	"choices": [
+	  "Lineal",
+	  "Hausaufgabe",
+	  "Bus",
+	  "Banane"
+	],
+	"category": "school"
+  },
+  {
+	"english": "desk",
+	"german": "Schreibtisch",
+	"choices": [
+	  "Ei",
+	  "Helm",
+	  "Schreibtisch",
+	  "Mixer"
+	],
+	"category": "school"
+  },
+  {
+	"english": "chair",
+	"german": "Stuhl",
+	"choices": [
+	  "Toaster",
+	  "Serviette",
+	  "Straßenbahn",
+	  "Stuhl"
+	],
+	"category": "school"
+  },
+  {
+	"english": "blackboard",
+	"german": "Tafel",
+	"choices": [
+	  "Tafel",
+	  "Fahrrad",
+	  "Papier",
+	  "U-Bahn"
+	],
+	"category": "school"
+  },
+  {
+	"english": "notebook",
+	"german": "Heft",
+	"choices": [
+	  "Heft",
+	  "Bahnhof",
+	  "Ehefrau",
+	  "Sohn"
+	],
+	"category": "school"
+  },
+  {
+	"english": "teacher",
+	"german": "Lehrer",
+	"choices": [
+	  "Reis",
+	  "Messer",
+	  "Vater",
+	  "Lehrer"
+	],
+	"category": "school"
+  },
+  {
+	"english": "student",
+	"german": "Schüler",
+	"choices": [
+	  "Schüler",
+	  "Fahrer",
+	  "Mikrowelle",
+	  "Tasse"
+	],
+	"category": "school"
+  },
+  {
+	"english": "classroom",
+	"german": "Klassenzimmer",
+	"choices": [
+	  "Lineal",
+	  "Reis",
+	  "Kleber",
+	  "Klassenzimmer"
+	],
+	"category": "school"
+  },
+  {
+	"english": "homework",
+	"german": "Hausaufgabe",
+	"choices": [
+	  "Hausaufgabe",
+	  "Ehefrau",
+	  "Traube",
+	  "Spachtel"
+	],
+	"category": "school"
+  },
+  {
+	"english": "exam",
+	"german": "Prüfung",
+	"choices": [
+	  "Tomate",
+	  "Schreibtisch",
+	  "Prüfung",
+	  "Zitrone"
+	],
+	"category": "school"
+  },
+  {
+	"english": "lesson",
+	"german": "Unterricht",
+	"choices": [
+	  "Unterricht",
+	  "Ei",
+	  "Fisch",
+	  "Schüler"
+	],
+	"category": "school"
+  },
+  {
+	"english": "paper",
+	"german": "Papier",
+	"choices": [
+	  "Papier",
+	  "Banane",
+	  "Passagier",
+	  "Flugzeug"
+	],
+	"category": "school"
+  },
+  {
+	"english": "marker",
+	"german": "Marker",
+	"choices": [
+	  "Serviette",
+	  "Messer",
+	  "Marker",
+	  "Buch"
+	],
+	"category": "school"
+  },
+  {
+	"english": "scissors",
+	"german": "Schere",
+	"choices": [
+	  "Schere",
+	  "Zwiebel",
+	  "Prüfung",
+	  "Großvater"
+	],
+	"category": "school"
+  },
+  {
+	"english": "glue",
+	"german": "Kleber",
+	"choices": [
+	  "Kleber",
+	  "Nichte",
+	  "Kühlschrank",
+	  "Topf"
+	],
+	"category": "school"
+  },
+  {
+	"english": "bag",
+	"german": "Tasche",
+	"choices": [
+	  "Papier",
+	  "Tasche",
+	  "Passagier",
+	  "Mehl"
+	],
+	"category": "school"
+  },
+  {
+	"english": "father",
+	"german": "Vater",
+	"choices": [
+	  "Stift",
+	  "Onkel",
+	  "Schüler",
+	  "Vater"
+	],
+	"category": "family"
+  },
+  {
+	"english": "mother",
+	"german": "Mutter",
+	"choices": [
+	  "Baby",
+	  "Mutter",
+	  "Gabel",
+	  "Straße"
+	],
+	"category": "family"
+  },
+  {
+	"english": "brother",
+	"german": "Bruder",
+	"choices": [
+	  "Hausaufgabe",
+	  "Lineal",
+	  "Bruder",
+	  "Glas"
+	],
+	"category": "family"
+  },
+  {
+	"english": "sister",
+	"german": "Schwester",
+	"choices": [
+	  "Flugzeug",
+	  "Schwester",
+	  "Ehemann",
+	  "Stift"
+	],
+	"category": "family"
+  },
+  {
+	"english": "grandfather",
+	"german": "Großvater",
+	"choices": [
+	  "Teller",
+	  "Großvater",
+	  "Tomate",
+	  "Mikrowelle"
+	],
+	"category": "family"
+  },
+  {
+	"english": "grandmother",
+	"german": "Großmutter",
+	"choices": [
+	  "Zug",
+	  "Spachtel",
+	  "Milch",
+	  "Großmutter"
+	],
+	"category": "family"
+  },
+  {
+	"english": "uncle",
+	"german": "Onkel",
+	"choices": [
+	  "Bus",
+	  "Onkel",
+	  "Toaster",
+	  "Banane"
+	],
+	"category": "family"
+  },
+  {
+	"english": "aunt",
+	"german": "Tante",
+	"choices": [
+	  "Tante",
+	  "Helm",
+	  "Spachtel",
+	  "Taxi"
+	],
+	"category": "family"
+  },
+  {
+	"english": "cousin",
+	"german": "Cousin",
+	"choices": [
+	  "Heft",
+	  "Cousin",
+	  "Bus",
+	  "Sohn"
+	],
+	"category": "family"
+  },
+  {
+	"english": "child",
+	"german": "Kind",
+	"choices": [
+	  "Teller",
+	  "Nichte",
+	  "Kind",
+	  "Marker"
+	],
+	"category": "family"
+  },
+  {
+	"english": "baby",
+	"german": "Baby",
+	"choices": [
+	  "Nichte",
+	  "Fahrrad",
+	  "Baby",
+	  "Schreibtisch"
+	],
+	"category": "family"
+  },
+  {
+	"english": "parents",
+	"german": "Eltern",
+	"choices": [
+	  "Ehefrau",
+	  "Teller",
+	  "Eltern",
+	  "Tante"
+	],
+	"category": "family"
+  },
+  {
+	"english": "family",
+	"german": "Familie",
+	"choices": [
+	  "Familie",
+	  "Löffel",
+	  "Butter",
+	  "Toaster"
+	],
+	"category": "family"
+  },
+  {
+	"english": "husband",
+	"german": "Ehemann",
+	"choices": [
+	  "Ehemann",
+	  "Ehefrau",
+	  "Lehrer",
+	  "Zwiebel"
+	],
+	"category": "family"
+  },
+  {
+	"english": "wife",
+	"german": "Ehefrau",
+	"choices": [
+	  "Topf",
+	  "Ehefrau",
+	  "Familie",
+	  "Salz"
+	],
+	"category": "family"
+  },
+  {
+	"english": "son",
+	"german": "Sohn",
+	"choices": [
+	  "Sohn",
+	  "Ehemann",
+	  "Topf",
+	  "Cousin"
+	],
+	"category": "family"
+  },
+  {
+	"english": "daughter",
+	"german": "Tochter",
+	"choices": [
+	  "Boot",
+	  "Tochter",
+	  "Großvater",
+	  "Glas"
+	],
+	"category": "family"
+  },
+  {
+	"english": "nephew",
+	"german": "Neffe",
+	"choices": [
+	  "Ehefrau",
+	  "Ehemann",
+	  "Buch",
+	  "Neffe"
+	],
+	"category": "family"
+  },
+  {
+	"english": "niece",
+	"german": "Nichte",
+	"choices": [
+	  "Schüler",
+	  "Kartoffel",
+	  "Tomate",
+	  "Nichte"
+	],
+	"category": "family"
+  },
+  {
+	"english": "relatives",
+	"german": "Verwandte",
+	"choices": [
+	  "Hubschrauber",
+	  "Onkel",
+	  "Verwandte",
+	  "Topf"
+	],
+	"category": "family"
+  },
+  {
+	"english": "apple",
+	"german": "Apfel",
+	"choices": [
+	  "Apfel",
+	  "Prüfung",
+	  "Tomate",
+	  "Zucker"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "banana",
+	"german": "Banane",
+	"choices": [
+	  "Passagier",
+	  "Stift",
+	  "Banane",
+	  "Neffe"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "bread",
+	"german": "Brot",
+	"choices": [
+	  "Motorrad",
+	  "Vater",
+	  "Brot",
+	  "Kleber"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "butter",
+	"german": "Butter",
+	"choices": [
+	  "Zwiebel",
+	  "Schere",
+	  "Onkel",
+	  "Butter"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "cheese",
+	"german": "Käse",
+	"choices": [
+	  "Käse",
+	  "Bleistift",
+	  "Stuhl",
+	  "Kleber"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "egg",
+	"german": "Ei",
+	"choices": [
+	  "Papier",
+	  "Helm",
+	  "Großvater",
+	  "Ei"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "fish",
+	"german": "Fisch",
+	"choices": [
+	  "Passagier",
+	  "Fisch",
+	  "Ehemann",
+	  "Schiff"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "flour",
+	"german": "Mehl",
+	"choices": [
+	  "Schwester",
+	  "Tasche",
+	  "Kind",
+	  "Mehl"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "grape",
+	"german": "Traube",
+	"choices": [
+	  "Hausaufgabe",
+	  "Lastwagen",
+	  "Helm",
+	  "Traube"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "lemon",
+	"german": "Zitrone",
+	"choices": [
+	  "Herd",
+	  "Tante",
+	  "Pfeffer",
+	  "Zitrone"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "meat",
+	"german": "Fleisch",
+	"choices": [
+	  "Spüle",
+	  "Fleisch",
+	  "Tafel",
+	  "Teller"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "milk",
+	"german": "Milch",
+	"choices": [
+	  "Straße",
+	  "Kind",
+	  "Stift",
+	  "Milch"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "onion",
+	"german": "Zwiebel",
+	"choices": [
+	  "Radiergummi",
+	  "Zwiebel",
+	  "Cousin",
+	  "Pfeffer"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "orange",
+	"german": "Orange",
+	"choices": [
+	  "Nichte",
+	  "U-Bahn",
+	  "Bus",
+	  "Orange"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "pepper",
+	"german": "Pfeffer",
+	"choices": [
+	  "Straßenbahn",
+	  "Ehemann",
+	  "Pfeffer",
+	  "Käse"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "potato",
+	"german": "Kartoffel",
+	"choices": [
+	  "Marker",
+	  "Kartoffel",
+	  "Papier",
+	  "Lehrer"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "rice",
+	"german": "Reis",
+	"choices": [
+	  "Flugzeug",
+	  "Reis",
+	  "Traube",
+	  "Mixer"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "salt",
+	"german": "Salz",
+	"choices": [
+	  "Tasche",
+	  "Salz",
+	  "Großmutter",
+	  "Kleber"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "sugar",
+	"german": "Zucker",
+	"choices": [
+	  "Bahnhof",
+	  "Salz",
+	  "Schreibtisch",
+	  "Zucker"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "tomato",
+	"german": "Tomate",
+	"choices": [
+	  "Zitrone",
+	  "Helm",
+	  "Tomate",
+	  "Toaster"
+	],
+	"category": "grocery"
+  },
+  {
+	"english": "bus",
+	"german": "Bus",
+	"choices": [
+	  "Bus",
+	  "Löffel",
+	  "Ofen",
+	  "Hausaufgabe"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "car",
+	"german": "Auto",
+	"choices": [
+	  "Großmutter",
+	  "Auto",
+	  "Butter",
+	  "Zug"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "bicycle",
+	"german": "Fahrrad",
+	"choices": [
+	  "Großmutter",
+	  "Reis",
+	  "Onkel",
+	  "Fahrrad"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "train",
+	"german": "Zug",
+	"choices": [
+	  "Zug",
+	  "Serviette",
+	  "Fahrkarte",
+	  "Neffe"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "airplane",
+	"german": "Flugzeug",
+	"choices": [
+	  "Flugzeug",
+	  "Milch",
+	  "Löffel",
+	  "Fahrer"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "boat",
+	"german": "Boot",
+	"choices": [
+	  "Boot",
+	  "Bus",
+	  "Serviette",
+	  "Glas"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "truck",
+	"german": "Lastwagen",
+	"choices": [
+	  "Lastwagen",
+	  "Passagier",
+	  "Sohn",
+	  "Fleisch"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "taxi",
+	"german": "Taxi",
+	"choices": [
+	  "Zwiebel",
+	  "Taxi",
+	  "Spüle",
+	  "Fahrkarte"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "subway",
+	"german": "U-Bahn",
+	"choices": [
+	  "Lineal",
+	  "Zucker",
+	  "U-Bahn",
+	  "Kartoffel"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "tram",
+	"german": "Straßenbahn",
+	"choices": [
+	  "Unterricht",
+	  "Neffe",
+	  "U-Bahn",
+	  "Straßenbahn"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "scooter",
+	"german": "Roller",
+	"choices": [
+	  "Zug",
+	  "Klassenzimmer",
+	  "Onkel",
+	  "Roller"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "motorcycle",
+	"german": "Motorrad",
+	"choices": [
+	  "Kind",
+	  "Motorrad",
+	  "Taxi",
+	  "Marker"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "ship",
+	"german": "Schiff",
+	"choices": [
+	  "Straße",
+	  "Schiff",
+	  "Zucker",
+	  "Buch"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "helicopter",
+	"german": "Hubschrauber",
+	"choices": [
+	  "Banane",
+	  "Mikrowelle",
+	  "Tante",
+	  "Hubschrauber"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "station",
+	"german": "Bahnhof",
+	"choices": [
+	  "Toaster",
+	  "Bahnhof",
+	  "Tomate",
+	  "Topf"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "ticket",
+	"german": "Fahrkarte",
+	"choices": [
+	  "Fahrkarte",
+	  "Mehl",
+	  "Ei",
+	  "Großvater"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "driver",
+	"german": "Fahrer",
+	"choices": [
+	  "Tafel",
+	  "Butter",
+	  "Fahrer",
+	  "Lineal"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "passenger",
+	"german": "Passagier",
+	"choices": [
+	  "Zug",
+	  "Passagier",
+	  "Spüle",
+	  "Roller"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "helmet",
+	"german": "Helm",
+	"choices": [
+	  "Ehemann",
+	  "Helm",
+	  "Bruder",
+	  "Roller"
+	],
+	"category": "transport"
+  },
+  {
+	"english": "road",
+	"german": "Straße",
+	"choices": [
+	  "Lastwagen",
+	  "Schere",
+	  "Straße",
+	  "Stuhl"
+	],
+	"category": "transport"
+  }
+]
