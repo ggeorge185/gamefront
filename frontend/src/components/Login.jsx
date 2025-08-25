@@ -69,8 +69,8 @@ const Login = () => {
       {!showPopUp && (
         <form onSubmit={signupHandler} className='shadow-lg flex flex-col gap-5 p-8'>
           <div className='my-4 text-center'>
-            <img src='/image.png' alt='LOGO' style={{ width: '300px', height: 'auto' }} />
-            <p className='text-sm'>Login to see photos from your friends</p>
+            <h1 className='text-3xl font-bold text-blue-600 mb-2'>German Adventure</h1>
+            <p className='text-sm'>Join Alex on his journey through Germany and learn German!</p>
           </div>
           <div>
             <span className='font-medium'>Email</span>

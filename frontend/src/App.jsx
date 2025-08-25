@@ -1,47 +1,50 @@
 import { useEffect } from 'react'
-import ChatPage from './components/ChatPage'
-import EditProfile from './components/EditProfile'
-import Home from './components/Home'
+import GameDashboard from './components/GameDashboard'
 import Login from './components/Login'
-import MainLayout from './components/MainLayout'
-import Profile from './components/Profile'
 import Signup from './components/Signup'
-import SearchPage from './components/SearchPage' // Import SearchPage
+import StoryMode from './components/StoryMode'
+import GameSelection from './components/GameSelection'
+import ScenarioSelection from './components/ScenarioSelection'
+import JumbledLettersGame from './components/games/JumbledLettersGame'
+import TabooGame from './components/games/TabooGame'
+import QuizGame from './components/games/QuizGame'
+import MemoryGame from './components/games/MemoryGame'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { io } from "socket.io-client";
 import { useDispatch, useSelector } from 'react-redux'
-import { setSocket } from './redux/socketSlice'
-import { setOnlineUsers } from './redux/chatSlice'
-import { setLikeNotification } from './redux/rtnSlice'
 import ProtectedRoutes from './components/ProtectedRoutes'
-import StoryViewer from './components/StoryViewer';
 
 const browserRouter = createBrowserRouter([
   {
     path: "/",
-    element: <ProtectedRoutes><MainLayout /></ProtectedRoutes>,
-    children: [
-      {
-        path: '/',
-        element: <ProtectedRoutes><Home /></ProtectedRoutes>
-      },
-      {
-        path: '/profile/:id',
-        element: <ProtectedRoutes> <Profile /></ProtectedRoutes>
-      },
-      {
-        path: '/account/edit',
-        element: <ProtectedRoutes><EditProfile /></ProtectedRoutes>
-      },
-      {
-        path: '/chat',
-        element: <ProtectedRoutes><ChatPage /></ProtectedRoutes>
-      },
-      {
-        path: '/search',
-        element: <ProtectedRoutes><SearchPage /></ProtectedRoutes> // Add SearchPage route
-      },
-    ]
+    element: <ProtectedRoutes><GameDashboard /></ProtectedRoutes>
+  },
+  {
+    path: "/story-mode",
+    element: <ProtectedRoutes><StoryMode /></ProtectedRoutes>
+  },
+  {
+    path: "/game-selection",
+    element: <ProtectedRoutes><GameSelection /></ProtectedRoutes>
+  },
+  {
+    path: "/scenario/:scenarioId",
+    element: <ProtectedRoutes><ScenarioSelection /></ProtectedRoutes>
+  },
+  {
+    path: "/game/jumbled_letters",
+    element: <ProtectedRoutes><JumbledLettersGame /></ProtectedRoutes>
+  },
+  {
+    path: "/game/taboo",
+    element: <ProtectedRoutes><TabooGame /></ProtectedRoutes>
+  },
+  {
+    path: "/game/quiz",
+    element: <ProtectedRoutes><QuizGame /></ProtectedRoutes>
+  },
+  {
+    path: "/game/memory_game",
+    element: <ProtectedRoutes><MemoryGame /></ProtectedRoutes>
   },
   {
     path: '/login',
@@ -55,42 +58,13 @@ const browserRouter = createBrowserRouter([
 
 function App() {
   const { user } = useSelector(store => store.auth);
-  const { socket } = useSelector(store => store.socketio);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    if (user) {
-      const socketio = io('https://euphora.onrender.com', {
-        query: {
-          userId: user?._id
-        },
-        transports: ['websocket']
-      });
-      dispatch(setSocket(socketio));
-
-      // listen all the events
-      socketio.on('getOnlineUsers', (onlineUsers) => {
-        dispatch(setOnlineUsers(onlineUsers));
-      });
-
-      socketio.on('notification', (notification) => {
-        dispatch(setLikeNotification(notification));
-      });
-
-      return () => {
-        socketio.close();
-        dispatch(setSocket(null));
-      }
-    } else if (socket) {
-      socket.close();
-      dispatch(setSocket(null));
-    }
-  }, [user, dispatch]);
-
+  // Remove socket.io functionality since we're focusing on language learning games
+  
   return (
     <>
       <RouterProvider router={browserRouter} />
-      <StoryViewer />
     </>
   )
 }
