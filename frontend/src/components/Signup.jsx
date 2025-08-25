@@ -57,8 +57,8 @@ const Signup = () => {
         <div className='flex items-center w-screen h-screen justify-center' style={{ background: 'url(/background.jpg) no-repeat center center fixed', backgroundSize: 'cover' }}>
             <form onSubmit={signupHandler} className='shadow-lg flex flex-col gap-5 p-8'>
                 <div className='my-4 text-center'>
-                    <img src="/image.png" alt="LOGO" style={{ width: '100px', height: 'auto' }} />
-                    <p className='text-sm text-center'>Signup to see photos from your friends</p>
+                    <h1 className='text-3xl font-bold text-blue-600 mb-2'>German Adventure</h1>
+                    <p className='text-sm'>Create your account to start learning German with Alex!</p>
                 </div>
                 <div>
                     <span className='font-medium'>Username</span>
